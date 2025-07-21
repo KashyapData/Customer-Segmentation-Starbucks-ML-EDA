@@ -1,0 +1,34 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets & environments
+.env
+*.key
+*.pem
+
+# IDE settings
+.vscode/
+.idea/
+
+# Output models
+*.pkl
+*.h5
+*.model
